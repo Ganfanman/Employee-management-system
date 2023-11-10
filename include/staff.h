@@ -1,13 +1,10 @@
-#ifndef PERSON_H
-#define PERSON_H
-#include <String>
+#ifndef STAFF_H
+#define STAFF_H
+#include <iostream>
 
-class Person
+class Staff
 {
 public:
-    Person() = default;
-    virtual ~Person() = default;
-
     void SetID(int ID);
     int GetID();
 
@@ -17,12 +14,15 @@ public:
     void SetPosition(std::string position);
     std::string GetPosition();
 
+    void SetDuty(std::string duty);
+    std::string GetDuty();
 
 private:
     int ID_{};
-    std::string name_{};
-    std::string position_{};
-
+    std::string name_{""};
+    std::string position_{""};
+    std::string duty_{""};
 };
 
-#endif 
+
+#endif

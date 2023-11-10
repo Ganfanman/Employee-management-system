@@ -1,0 +1,3 @@
+/Users/rx.j/Documents/C++/Employee-management-system/CMakeFiles/ManagementSystem.dir
+/Users/rx.j/Documents/C++/Employee-management-system/CMakeFiles/edit_cache.dir
+/Users/rx.j/Documents/C++/Employee-management-system/CMakeFiles/rebuild_cache.dir
